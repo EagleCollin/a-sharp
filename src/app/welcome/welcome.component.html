@@ -1,11 +1,30 @@
 <body>
-  <button class="page-tag" (click)="onRouteSelect('wedding')">Wedding</button>
+  <div>
+    <ul>
+      <li>
+        <button class="page-tag carousel" (click)="onRouteSelect('wedding')">
+          Wedding
+        </button>
+      </li>
 
-  <button class="page-tag" (click)="onRouteSelect('sweet16')">Sweet 16</button>
+      <li>
+        <button class="page-tag carousel" (click)="onRouteSelect('sweet16')">
+          Sweet 16
+        </button>
+      </li>
 
-  <button class="page-tag" (click)="onRouteSelect('pageant')">Pageant</button>
+      <li>
+        <button class="page-tag carousel" (click)="onRouteSelect('pageant')">
+          Pageant
+        </button>
+      </li>
 
-  <button class="page-tag" (click)="onRouteSelect('party')">
-    Themed Party
-  </button>
+      <li>
+        <button class="page-tag carousel" (click)="onRouteSelect('party')">
+          Themed Party
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="line"></div>
 </body>
