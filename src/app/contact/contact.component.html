@@ -1,0 +1,42 @@
+<form (ngSubmit)="sendInfo(ngForm)" #templateFormRef="ngForm">
+  <div class="form-group col-mid-4">
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      formControlName="contactName"
+      required
+    />
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input
+      type="text"
+      id="email"
+      name="email"
+      formControlName="contactEmail"
+      required
+    />
+  </div>
+  <div>
+    <label for="phone">Contact Number:</label>
+    <input
+      type="number"
+      id="phone"
+      name="phone"
+      formControlName="contactPhone"
+      required
+    />
+  </div>
+  <div>
+    <label for="date">Date of Event:</label>
+    <input
+      type="date"
+      id="date"
+      name="date"
+      formControlName="eventDate"
+      required
+    />
+  </div>
+</form>

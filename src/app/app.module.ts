@@ -8,6 +8,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { PageantComponent } from './pageant/pageant.component';
 import { PartyComponent } from './party/party.component';
 import { Sweet16Component } from './sweet16/sweet16.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,11 @@ import { Sweet16Component } from './sweet16/sweet16.component';
     WelcomeComponent,
     PageantComponent,
     PartyComponent,
-    Sweet16Component
+    Sweet16Component,
+    ContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
