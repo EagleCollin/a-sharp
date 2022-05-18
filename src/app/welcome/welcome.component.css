@@ -1,8 +1,15 @@
+.welcome{
+  color: goldenrod;
+}
+
 .page-tag {
   border: none;
   cursor: pointer;
   color: goldenrod;
-  background-color: black;
+  background-color: blue;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .line {
@@ -28,6 +35,6 @@
 } */
 
 .carousel {
-  position: fixed;
+  position: flex;
   right: 50px;
 }
