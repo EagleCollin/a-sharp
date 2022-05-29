@@ -1,0 +1,16 @@
+<nav class = "navigationWrapper">
+  <ul class="navigation">
+    <li class="parent"><a class="link" #home>Home</a></li>
+    <li class="parent"><a class="link" #about>About</a></li>
+    <li class="parent" id="services" >
+      <a class="link" (click)="showServices($event)" #services><i class="fas fa-minus"></i>Services<i class="fas fa-plus"></i></a>
+      <ul class="subnavigation">
+        <li><a class="link" #wedding>Wedding</a></li>
+        <li><a class="link" #sweet16>Sweet 16</a></li>
+        <li><a class="link" #party>Party</a></li>
+        <li><a class="link" #pageant>Pageant</a></li>
+      </ul>
+    </li>
+    <li class="parent"><a class="link" #contact>Contact</a></li>
+  </ul>
+</nav>

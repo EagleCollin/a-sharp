@@ -10,6 +10,7 @@ import { PartyComponent } from './party/party.component';
 import { Sweet16Component } from './sweet16/sweet16.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     PartyComponent,
     Sweet16Component,
     ContactComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
