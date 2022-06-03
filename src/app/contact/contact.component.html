@@ -1,11 +1,12 @@
-<form (ngSubmit)="sendInfo(ngForm)" #templateFormRef="ngForm">
+<form (ngSubmit)="sendInfo(ngForm)" #contactFormRef="ngForm">
   <div class="form-group col-mid-4">
     <label for="name">Name:</label>
     <input
       type="text"
       id="name"
       name="name"
-      formControlName="contactName"
+      placeholder="John Smith"
+      [(ngModel)]="contactFormRef.value.contactName"
       required
     />
   </div>
@@ -15,17 +16,19 @@
       type="text"
       id="email"
       name="email"
-      formControlName="contactEmail"
+      placeholder="john@test.com"
+      [(ngModel)]="contactFormRef.value.contactEmail"
       required
     />
   </div>
   <div>
     <label for="phone">Contact Number:</label>
     <input
-      type="number"
+      type="tel"
       id="phone"
       name="phone"
-      formControlName="contactPhone"
+      placeholder="123-456-7890"
+      [(ngModel)]="contactFormRef.value.contactPhone"
       required
     />
   </div>
@@ -35,7 +38,7 @@
       type="date"
       id="date"
       name="date"
-      formControlName="eventDate"
+      [(ngModel)]="contactFormRef.value.eventDate"
       required
     />
   </div>
