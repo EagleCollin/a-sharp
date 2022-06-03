@@ -18,7 +18,7 @@
   color: white;
   text-transform: uppercase;
   overflow: hidden;
-  width: 600px;
+  width: 700px;
 }
 .navigationWrapper .logoWrapper {
   display: flex;
@@ -48,7 +48,7 @@
 .navigation .parent .link {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: left;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   color: white;
