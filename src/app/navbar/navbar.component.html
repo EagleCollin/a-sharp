@@ -1,20 +1,20 @@
 <div id="navbar">
   <nav class="navigationWrapper">
     <ul class="navigation" #parent>
-      <li class="parent"><a class="link" #home>Home</a></li>
-      <li class="parent"><a class="link" #about>About</a></li>
+      <li class="parent"><a class="link" #home routerLink="/welcome">Home</a></li>
+      <li class="parent"><a class="link" #about routerLink="/about">About</a></li>
       <li class="parent" id="services" #services>
         <a class="link"
           ><i class="fas fa-minus"></i>Services<i class="fas fa-plus"></i
         ></a>
         <ul class="subnavigation">
-          <li><a class="link" #wedding>Wedding</a></li>
-          <li><a class="link" #sweet16>Sweet 16</a></li>
-          <li><a class="link" #party>Party</a></li>
-          <li><a class="link" #pageant>Pageant</a></li>
+          <li><a class="link" #wedding routerLink="/wedding">Wedding</a></li>
+          <li><a class="link" #sweet16 routerLink="/sweet16">Sweet 16</a></li>
+          <li><a class="link" #party routerLink="/party">Party</a></li>
+          <li><a class="link" #pageant routerLink="/pageant">Pageant</a></li>
         </ul>
       </li>
-      <li class="parent"><a class="link" #contact>Contact</a></li>
+      <li class="parent"><a class="link" #contact routerLink="/contact">Contact</a></li>
     </ul>
   </nav>
 </div>

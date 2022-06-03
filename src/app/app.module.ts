@@ -11,6 +11,7 @@ import { Sweet16Component } from './sweet16/sweet16.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     Sweet16Component,
     ContactComponent,
     NavbarComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

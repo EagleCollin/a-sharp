@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Router, RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageantComponent } from './pageant/pageant.component';
 import { PartyComponent } from './party/party.component';
@@ -15,6 +16,7 @@ const appRoutes: Routes = [
   { path: 'sweet16', component: Sweet16Component },
   { path: 'party', component: PartyComponent },
   { path: 'contact', component: ContactComponent },
+  {path: 'about', component: AboutComponent}
 ];
 
 @NgModule({
